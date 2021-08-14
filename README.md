@@ -6,30 +6,41 @@ The script provided, gives users the convencience to just choose a the image pat
 
 # 1. Requirements
 
+To run the script, at least Matlab R2020b is necessary. 
 https://de.mathworks.com/products/matlab/student.html
 
+Additionally, the Computer Vision (CV) toolbox is required.
 https://de.mathworks.com/products/computer-vision.html
 
 # 2. Technical Background
 
-Example:
+An example of an image registration is shown here:
 https://de.mathworks.com/help/vision/ug/object-detection-in-a-cluttered-scene-using-point-feature-matching.html
 
+The enclosed example in this repo is illustrated below.
+From two handheld photos the image registration is done via feature extraction.
+![Docu1](/Docu/RegisteredFeatures.png)
 
+The final registration of this example is shown in the montage:
+![Docu2](/Docu/AfterRegistration.PNG)
+
+Further information on how to use image registration and the theoretical background can be found here:
 https://de.mathworks.com/discovery/image-registration.html
-
 https://de.mathworks.com/help/images/register-images-using-the-registration-estimator-app.html
-
 https://de.mathworks.com/help/images/techniques-supported-by-registration-estimator-app.html
 
 # 3. User Input
 
-MainScript.m
-
-Line 6: location =
+The only user input is required in _MainScript.m_.
+Please proivde the absolute file path in _Line 6:_ and change the variable _location = ''_ to the full absolute path which contains all images.
 
 # 4. Creating a Timelapse Movie
 
-https://de.mathworks.com/matlabcentral/fileexchange/67974-makemovie
+After registration of the frame, an easy way to create a movie can be done through this UI:
 
 Image Analyst (2021). MakeMovie (https://www.mathworks.com/matlabcentral/fileexchange/67974-makemovie), MATLAB Central File Exchange. Retrieved August 13, 2021. 
+
+# TODO
+
+* Copy fixed image automatically
+* Let user decide final image resolution
