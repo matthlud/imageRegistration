@@ -18,15 +18,20 @@ An example of an image registration is shown here:
 https://de.mathworks.com/help/vision/ug/object-detection-in-a-cluttered-scene-using-point-feature-matching.html
 
 The enclosed example in this repo is illustrated below.
+The two original image show a slight misalignment.
+![Docu1](/Docu/BeforeRegistration.PNG)
+
 From two handheld photos the image registration is done via feature extraction.
-![Docu1](/Docu/RegisteredFeatures.png)
+<img src="/Docu/RegisteredFeatures.png" width="480">
 
 The final registration of this example is shown in the montage:
 ![Docu2](/Docu/AfterRegistration.PNG)
 
 Further information on how to use image registration and the theoretical background can be found here:
 https://de.mathworks.com/discovery/image-registration.html
+
 https://de.mathworks.com/help/images/register-images-using-the-registration-estimator-app.html
+
 https://de.mathworks.com/help/images/techniques-supported-by-registration-estimator-app.html
 
 # 3. User Input
