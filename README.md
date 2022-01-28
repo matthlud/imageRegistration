@@ -21,7 +21,7 @@ The enclosed example in this repo is illustrated below.
 The two original image show a slight misalignment.
 ![Docu1](/Docu/BeforeRegistration.PNG)
 
-From two handheld photos the image registration is done via feature extraction.
+From two handheld photos the image registration is done via feature extraction via the SURF-algorithm (https://people.ee.ethz.ch/~surf/eccv06.pdf).
 <img src="/Docu/RegisteredFeatures.png" width="480">
 
 The final registration of this example is shown in the montage:
