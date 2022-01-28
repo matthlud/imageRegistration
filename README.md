@@ -23,7 +23,7 @@ The two original image show a slight misalignment.
 
 From two handheld photos the image registration is done via feature extraction via the SURF-algorithm (https://people.ee.ethz.ch/~surf/eccv06.pdf).
 
-<img src="/Docu/RegisteredFeatures.png" width="520">
+<img src="/Docu/RegisteredFeatures.png" width="510">
 
 The final registration of this example is shown in the montage:
 ![Docu2](/Docu/AfterRegistration.PNG)
