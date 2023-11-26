@@ -19,14 +19,14 @@ https://de.mathworks.com/help/vision/ug/object-detection-in-a-cluttered-scene-us
 
 The enclosed example in this repo is illustrated below.
 The two original image show a slight misalignment.
-![Docu1](/Docu/BeforeRegistration.PNG)
+![docu1](/docu/BeforeRegistration.PNG)
 
 From two handheld photos the image registration is done via feature extraction via the SURF-algorithm (https://people.ee.ethz.ch/~surf/eccv06.pdf).
 
-<img src="/Docu/RegisteredFeatures.png" width="505">
+<img src="/docu/RegisteredFeatures.png" width="505">
 
 The final registration of this example is shown in the montage:
-![Docu2](/Docu/AfterRegistration.PNG)
+![docu2](/docu/AfterRegistration.PNG)
 
 Further information on how to use image registration and the theoretical background can be found here:
 https://de.mathworks.com/discovery/image-registration.html
