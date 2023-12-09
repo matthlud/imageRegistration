@@ -38,7 +38,10 @@ https://de.mathworks.com/help/images/techniques-supported-by-registration-estima
 # 3. Usage
 
 Clone the repository:
-```git clone https://github.com/matthlud/imageRegistration.git´´´
+
+```
+git clone https://github.com/matthlud/imageRegistration.git
+```
 
 The only user input is required in _main.m_.
 Please proivde the absolute file path in _Line 6:_ and change the variable _location = ''_ to the full absolute path which contains all images.
