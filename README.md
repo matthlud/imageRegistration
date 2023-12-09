@@ -35,9 +35,12 @@ https://de.mathworks.com/help/images/register-images-using-the-registration-esti
 
 https://de.mathworks.com/help/images/techniques-supported-by-registration-estimator-app.html
 
-# 3. User Input
+# 3. Usage
 
-The only user input is required in _MainScript.m_.
+Clone the repository:
+```git clone https://github.com/matthlud/imageRegistration.git´´´
+
+The only user input is required in _main.m_.
 Please proivde the absolute file path in _Line 6:_ and change the variable _location = ''_ to the full absolute path which contains all images.
 
 # 4. Creating a Timelapse Movie
