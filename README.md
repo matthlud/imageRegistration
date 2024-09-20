@@ -43,8 +43,22 @@ Clone the repository:
 git clone https://github.com/matthlud/imageRegistration.git
 ```
 
-The only user input is required in _main.m_.
-Please proivde the absolute file path in _Line 6_ and change the variable _location = ''_ to the full absolute path which contains all images.
+Go into the the repo:
+```
+cd imageRegistration/
+```
+
+Start the tool:
+```
+imageRegistration()
+```
+
+The default _image_ folder is /images. If you want to provide a custom path, 
+you can do so via command line options.
+```
+imageRegistration('/path/to/images')
+```
+
 
 # 4. Creating a Timelapse Movie
 
